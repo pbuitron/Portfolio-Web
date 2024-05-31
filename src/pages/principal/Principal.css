@@ -1,0 +1,39 @@
+.flex-container {
+    display: flex;
+    flex-flow: row nowrap; /* Default to column for small screens */
+    height: 100%;
+    padding-top: 10em;
+  }
+
+  .left {
+    flex: 1 1 35%; /* Each takes 50% of the container width */
+  }
+
+  .right {
+    flex: 1 1 65%; /* 3/4 of the container width */
+  }
+
+  @media (max-width: 640px) {
+    .flex-container {
+      flex-flow: column nowrap; /* Change to row for large screens */
+      padding-top: 12em;
+      height: 100%;
+  }
+
+  .column-flex {
+    flex-flow: column nowrap;
+  }
+  
+  .row-flex {
+    flex-flow: row nowrap;
+  }
+
+    .left {
+      flex: 1 1 25%; /* Each takes 50% of the container width */
+    }
+
+    .right {
+      flex: 1 1 75%; /* Each takes 50% of the container width */
+    }
+  }
+ 

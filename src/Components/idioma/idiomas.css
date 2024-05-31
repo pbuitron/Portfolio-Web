@@ -1,0 +1,53 @@
+.header-language {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s;
+
+}
+
+/* Oculta los botones en pantallas pequeñas */
+.language-buttons {
+  display: none;
+}
+
+/* Muestra el select en pantallas pequeñas */
+.language-select {
+  display: block;
+  background: black;
+  filter: opacity(5rem);
+  border: 0;
+
+  & .language-option {
+    background: transparent;
+    font-size: var(--text-smaller);
+  }
+}
+
+
+/* Media query para pantallas mayores a 780px */
+@media (max-width: 640px) {
+
+  /* Muestra los botones */
+  .language-buttons {
+    display: flex;
+    gap: 1em;
+    /* Espacio entre los botones */
+  }
+
+  /* Oculta el select */
+  .header-language {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+
+  }
+
+  .language-select {
+    background: transparent;
+    font-size: var(--text-smaller);
+  }
+}

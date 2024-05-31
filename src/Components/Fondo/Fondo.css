@@ -1,0 +1,83 @@
+html {
+  
+  overflow: hidden;
+}
+
+.fondo {
+  position: absolute;
+  height: auto;
+  width: auto;
+  box-sizing: border-box;
+  pointer-events: none;
+  overflow: hidden;
+
+  .fondo-forma {
+    position: fixed;
+    box-sizing: border-box;
+    width: 40%;
+    height: 70%;
+    filter: blur(7em);
+  }
+
+  .forma1 {
+    top: 20%;
+    left: 30%;
+    
+
+    .fondo-color {
+      animation: forma 200s linear infinite both;
+      fill: rgba(255, 255, 255, 0.4);
+    }
+  }
+}
+
+@keyframes forma {
+  from {
+    transform: rotate(0deg) scale(4);
+  }
+
+  to {
+    transform: rotate(3600deg) scale(4);
+  }
+}
+
+@media (max-width: 640px) {
+  .fondo {
+    position: fixed;
+    height: auto;
+    width: 90%;
+    box-sizing: border-box;
+    left: 1.2em;
+    right: 1.2em;
+    top: 1.5em;
+    bottom: 1.5em;
+
+    .fondo-forma {
+      box-sizing: border-box;
+      height: auto;
+      filter: blur(5em);
+    }
+
+    .forma1 {
+      top: 10%;
+      right: 30%;
+      width: 50%;
+      height: 80%;
+
+      .fondo-color {
+        animation: forma 100s linear infinite both;
+        fill: rgba(255, 255, 255, 0.4);
+      }
+    }
+  }
+
+  @keyframes forma {
+    from {
+      transform: rotate(0deg) scale(5);
+    }
+
+    to {
+      transform: rotate(3600deg) scale(5);
+    }
+  }
+}

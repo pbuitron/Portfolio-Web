@@ -1,0 +1,39 @@
+
+  
+  .App-header {
+    text-align: center;
+    padding: 20px;
+  }
+
+.border {
+    
+    position: fixed;
+        top: 2.5em;
+        right: 5%;
+        bottom: 2.5em;
+        left: 5%;
+        max-width: 1800px;
+        border: 0.3em solid rgb(249, 245, 245); /* Puedes cambiar el color y el grosor del borde según tu preferencia */
+    box-sizing: border-box; /* Asegura que el borde esté dentro de las dimensiones del contenedor */
+    padding: 20px; /* Espacio interno dentro del borde */
+    overflow: hidden; /* Permite desplazamiento si el contenido es más grande que el área visible */
+}
+
+.App{
+display: flex;
+justify-content: center;
+}
+
+@media (max-width:640px){
+    .border {
+        position: fixed;
+        top: 1.5em;
+        right: 1.2em;
+        bottom: 2.5em;
+        left: 1.2em;
+        border: 0.3em solid rgb(249, 245, 245); /* Puedes cambiar el color y el grosor del borde según tu preferencia */
+        box-sizing: border-box; /* Asegura que el borde esté dentro de las dimensiones del contenedor */
+        padding: 20px; /* Espacio interno dentro del borde */
+        overflow: auto; /* Permite desplazamiento si el contenido es más grande que el área visible */
+    }
+}

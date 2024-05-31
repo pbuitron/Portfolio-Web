@@ -1,0 +1,30 @@
+html {
+  
+    cursor: none; /* Ocultar el cursor */
+    overflow: hidden;
+}
+
+
+
+.light {
+    position: absolute;
+    
+    
+    border-radius: 180%;
+    pointer-events: none; /* Evita que la iluminación interfiera con otros eventos del mouse */
+    box-shadow: -55px 20px 120px 90px rgba(255, 255, 255, 0.4); /* Sombra difuminada */
+}
+
+
+.dark-background {
+    overflow: hidden; /* Asegura que no haya barra de desplazamiento en el contenedor */
+    filter: noise(#fff)  ;
+    
+}
+
+@media (max-width:640px){
+.light{
+display: none
+
+}
+}

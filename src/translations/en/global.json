@@ -1,0 +1,17 @@
+{
+    "header": {
+        "hello": "Paul Buitron"
+    },
+    "nav": {
+        "home": "Who I´m?",
+        "projects": "Projects",
+        "info": "Technologies",
+        "contact":"Contact"
+      },
+      "charge":{
+      "developer":"Front-End Web Developer"}
+      ,
+      "info":{
+      "me":"Hello, I'm Paul, a Peruvian web developer with over 2 years of experience in creating sleek and cutting-edge websites and applications. I am passionate about providing innovative technological solutions that meet the needs of my clients and exceed their expectations. If you are looking for a talented and dedicated web developer, please do not hesitate to contact me. I am confident that I can add value to your team and help you achieve your goals."}
+
+}

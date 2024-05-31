@@ -1,0 +1,16 @@
+{
+    "header": {
+        "hello": "Paul Buitron"
+    },
+    "nav": {
+        "home": "Wer bin Ich?",
+        "projects": "Projekte",
+        "info": "Technologien",
+        "contact":"Kontakt"
+      },
+      "charge":{
+      "developer":"Frontend-Webentwickler"},
+      "info":{
+        "me":"Hallo, ich bin Paul, ein peruanischer Webentwickler mit mehr als 2 Jahren Erfahrung in der Erstellung eleganter und innovativer Websites und Anwendungen. Ich bin leidenschaftlich daran interessiert, innovative technologische Lösungen anzubieten, die die Bedürfnisse meiner Kunden erfüllen und ihre Erwartungen übertreffen. Wenn Sie einen talentierten und engagierten Webentwickler suchen, zögern Sie bitte nicht, mich zu kontaktieren. Ich bin sicher, dass ich einen Mehrwert für Ihr Team schaffen und Ihnen helfen kann, Ihre Ziele zu erreichen."
+    }
+}

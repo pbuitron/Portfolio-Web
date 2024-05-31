@@ -1,0 +1,17 @@
+.header-title{
+font-family:var(--font-title);
+color: var(--shades);
+font-weight: 100;
+font-size: var(--text-medium);
+display: flex;
+flex-direction: column;
+flex-wrap:nowrap;
+text-align:start;
+}
+
+::selection {
+    background-color: var(--secondary); /* Color de fondo de la selección */
+    color: var(--primary); /* Color del texto seleccionado */
+}
+
+  

@@ -1,0 +1,42 @@
+
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+    animation: fadeInUp;
+    animation-duration: 2s;
+  }
+  .proyecto{
+    overflow: scroll;
+}
+  .proyectos-contenedor{
+    padding: 0.3em 0em;
+    padding-left: 2.5em;
+    display: flex;
+    flex-flow: column nowrap;
+    
+    
+}
+.proyectos-nombre {
+    font-family: var(--font-title2);
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.2em;
+    text-align: left;
+  }
+.proyectos-link{
+    
+    letter-spacing: 0.109em
+    ;
+
+}
+.proyectos-fecha{
+font-family: var(--font-parrafo);
+font-weight: 600;
+font-size:var(--text-smaller);
+position: relative;
+bottom: 1.5em;
+
+}

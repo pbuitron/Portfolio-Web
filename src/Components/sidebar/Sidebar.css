@@ -1,0 +1,43 @@
+.flex-column {
+    align-content: start;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-end;
+    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1s; /* don't forget to set a duration! */
+
+
+}
+
+.nav-link {
+    font-family: var(--text-title);
+   
+    padding: 0.7em 0em;
+    color: var(--secondary);
+    line-height: 1rem;
+    text-align: start;
+}
+.nav-link:hover{
+color: #F1C40F;
+}
+
+.nav-item {
+    padding: 0px 1px;
+    margin: 0px;
+    text-align: right;
+}
+
+@media (max-width:680px){
+    .flex-column {
+        align-content: start;
+        padding-left: 0px;
+        display: flex;
+        justify-content: center;
+        animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 1s; /* don't forget to set a duration! */
+
+    
+    }
+    
+
+}
