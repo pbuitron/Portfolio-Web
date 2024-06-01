@@ -3,14 +3,20 @@
     padding-left: 0px;
     display: flex;
     justify-content: flex-end;
-    animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
-    animation-duration: 1s; /* don't forget to set a duration! */
-
-
+    animation: fadeIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 1.5s; /* don't forget to set a duration! */
+}
+.fadeOut {
+  animation: fadeOut;
+  animation-duration: 1.s;
 }
 
+.nav{
+color: none;
+}
 .nav-link {
     font-family: var(--text-title);
+   
     padding: 0.7em 0em;
     color: var(--secondary);
     line-height: 1rem;
@@ -18,8 +24,9 @@
 }
 .nav-link:hover, .nav-link:focus{
 color:#64dcdc;
-}
 
+
+}
 
 .nav-item {
     padding: 0px 1px;
@@ -43,7 +50,8 @@ color:#64dcdc;
 
     .fadeOut {
       animation: fadeOutLeft 1s forwards;
-   }
+    }
+    
 
 }
 
@@ -72,9 +80,32 @@ color:#64dcdc;
   }
 }
 
+/*.flex-column {
+  align-content: start;
+  padding-left: 0px;
+  display: flex;
+  justify-content: flex-end;
+  animation: fadeInLeft 1s;
+}*/
 
+/*.nav-link {
+  font-family: var(--text-title);
+  padding: 0.7em 0em;
+  color: var(--secondary);
+  line-height: 1rem;
+  text-align: start;
+}*/
+/*
+.nav-link:hover {
+  color:var(red);
+  background: var(red);
+}*/
 
-
+/*.nav-item {
+  padding: 0px 1px;
+  margin: 0px;
+  text-align: right;
+}*/
 
 
 
