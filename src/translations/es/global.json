@@ -15,8 +15,10 @@
         "me": "Hola, soy Paul, desarrollador web peruano con más de 2 años de experiencia en la creación de sitios web y aplicaciones elegantes y de vanguardia. Me apasiona brindar soluciones tecnológicas innovadoras que satisfagan las necesidades de mis clientes y superen sus expectativas. Si busca un desarrollador web talentoso y dedicado, no dude en contactarme. Estoy seguro de que puedo agregar valor a su equipo y ayudarlo a alcanzar sus objetivos. "
     },
     "projects": {
-        "sealpro": "SEALPRO",
-        "ecommerce": "ECOMMERCE CON FIREBASE",
-        "clinica": "CLINICA DENTAL"
+        "sealpro": "SEALPRO. proyecto desarrollado con React",
+        "ecommerce": "ecommerce. PROYECTO con React y Firebase ",
+        "clinica": "CLINICA DENTAL. Proyecto en html",
+        "vanillaJavascript": "proyecto 100% javascript ",
+        "etriath": "etriath. PÁGINA CON JS, BOOTSTRAP"
     }
 }

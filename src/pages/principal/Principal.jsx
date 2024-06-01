@@ -1,10 +1,10 @@
 import React from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import './Principal.css';
 import Sidebar from '../../Components/sidebar/Sidebar';
 import Info from '../compartido/Info';
 import Carruselbrands from '../../Components/Carruselbrands/Carruselbrands/Carruselbrands';
 import Proyectos from '../compartido/Proyectos';
+import './Principal.css';
 const Principal = () => {
     const location = useLocation();
     const isTecnologiasRoute = location.pathname === '/projects';

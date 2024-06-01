@@ -7,20 +7,11 @@ const Proyectos = () => {
     const { t } = useTranslation("global");
     const proyectos = [
         { proyecto: "https://sealpro.vercel.app/", año: "2024", tt: t('projects.sealpro') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2023", tt: t('projects.ecommerce') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.clinica') },
-        { proyecto: "https://sealpro.vercel.app/", año: "2022", tt: t('projects.sealpro') }
+        { proyecto: "https://tienda-react-one.vercel.app/", año: "2023", tt: t('projects.ecommerce') },
+        { proyecto: "https://pbuitron.github.io/Javascript/", año: "2022", tt: t('projects.vanillaJavascript') },
+        { proyecto: "https://pbuitron.github.io/Clinica_Dental-Codehouse/", año: "2022", tt: t('projects.clinica') },
+        { proyecto: "https://pbuitron.github.io/etriath/", año: "2022", tt: t('projects.etriath') }
+        
     ];
 
     return (

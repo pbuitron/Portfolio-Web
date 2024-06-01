@@ -12,5 +12,12 @@
       "developer":"Frontend-Webentwickler"},
       "info":{
         "me":"Hallo, ich bin Paul, ein peruanischer Webentwickler mit mehr als 2 Jahren Erfahrung in der Erstellung eleganter und innovativer Websites und Anwendungen. Ich bin leidenschaftlich daran interessiert, innovative technologische Lösungen anzubieten, die die Bedürfnisse meiner Kunden erfüllen und ihre Erwartungen übertreffen. Wenn Sie einen talentierten und engagierten Webentwickler suchen, zögern Sie bitte nicht, mich zu kontaktieren. Ich bin sicher, dass ich einen Mehrwert für Ihr Team schaffen und Ihnen helfen kann, Ihre Ziele zu erreichen."
+    },
+    "projects": {
+        "sealpro": "SEALPRO. Projekt entwickelt mit React",
+        "ecommerce": "ecommerce. PROJEKT mit React und Firebase",
+        "clinica": "ZAHNKLINIK. Projekt in HTML",
+        "vanillaJavascript": "100% JavaScript-Projekt",
+        "etriath": "etriath. SEITE MIT JS, BOOTSTRAP"
     }
 }
