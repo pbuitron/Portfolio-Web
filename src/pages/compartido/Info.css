@@ -11,7 +11,7 @@
 
 .flex-conteiner-section .flex-conteiner-section-parrafo {
   font-family: var(--font-parrafo);
-  font-size: calc(var(--text-smaller) + 0.25em);
+  font-size: calc(var(--text-smaller) + 10%);
   font-weight: 100;
   max-width: 30em;
   line-height: 1.8;
@@ -25,7 +25,7 @@
 @media (max-width: 640px) {
   .flex-conteiner-section .flex-conteiner-section-parrafo {
     font-family: var(--font-parrafo);
-    font-size: var(--text-smaller);
+    font-size: calc(var(--text-smaller) + 2px);
     font-weight: 100;
     max-width: 100%;
     overflow: scroll;

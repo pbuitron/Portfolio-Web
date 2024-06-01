@@ -11,21 +11,23 @@
 
 .nav-link {
     font-family: var(--text-title);
-   
     padding: 0.7em 0em;
     color: var(--secondary);
     line-height: 1rem;
     text-align: start;
 }
-.nav-link:hover{
-color: #F1C40F;
+.nav-link:hover, .nav-link:focus{
+color:#64dcdc;
 }
+
 
 .nav-item {
     padding: 0px 1px;
     margin: 0px;
     text-align: right;
 }
+
+
 
 @media (max-width:680px){
     .flex-column {
@@ -38,6 +40,42 @@ color: #F1C40F;
 
     
     }
-    
+
+    .fadeOut {
+      animation: fadeOutLeft 1s forwards;
+   }
 
 }
+
+
+/* agregado*/
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeOutLeft {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+
+
+
+
+
+
+

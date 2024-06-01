@@ -61,13 +61,10 @@ import Preloader from './Components/Preloader/Preloader';
 function App() {
   const [loading, setLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
-
-  
-
   const handleFinishLoading = () => {
     setFadeOut(true);
     setTimeout(() => setLoading(false), 1000); // Tiempo para el fade out
-  };
+  };  
 
   if (loading) {
     return <Preloader fadeOut={fadeOut} onFinishLoading={handleFinishLoading}  />;

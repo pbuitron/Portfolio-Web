@@ -35,7 +35,7 @@
     }
 
     .right {
-      flex: 1 1 80%;
+      flex: 1 1 75%;
       height: 100vh; /* Each takes 50% of the container width */
     }
   }

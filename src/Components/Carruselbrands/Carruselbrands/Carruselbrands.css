@@ -16,6 +16,8 @@
     position: absolute;
     left: 25%;
     bottom: 2em;
+    animation: fadeIn;
+    animation-duration: 3s;
     
     
   }

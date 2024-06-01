@@ -14,6 +14,7 @@
     background-position: center;
     z-index: 1;
     transition: opacity 1s ease-in-out;
+    
     /*background: linear-gradient(rgba(10, 10, 10, 0.6), rgba(0, 0, 0, 0.9)),
     repeating-linear-gradient(0deg, transparent, transparent 2px, black 3px, black 3px),
                 url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg');*/
@@ -73,6 +74,7 @@
 
   button,button::after {
     padding: 10px 50px;
+    
     font-size: var(--text-smaller);
     border: none;
     border-radius: 5px;

@@ -16,6 +16,7 @@ const Principal = () => {
                 <Route path='/' element={<Info text="info.me" />} />
                 <Route path='/tecnologias' element={<Carruselbrands />} />
                 <Route path='/projects' element={<Proyectos/>} />
+                <Route path='/contact' element={<Proyectos/>} />
             </Routes>
         </section>
     );
