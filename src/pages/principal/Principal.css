@@ -26,6 +26,8 @@
   
   .row-flex {
     flex-flow: row nowrap;
+    box-sizing: border-box;
+    position: relative;
   }
 
     .left {
@@ -33,7 +35,8 @@
     }
 
     .right {
-      flex: 1 1 75%; /* Each takes 50% of the container width */
+      flex: 1 1 80%;
+      height: 100vh; /* Each takes 50% of the container width */
     }
   }
  
