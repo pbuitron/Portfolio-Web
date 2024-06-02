@@ -153,6 +153,20 @@ justify-content: flex-end;
     20% {
         opacity: 1
     }
+    
+    25% {
+        opacity: 1;
+        scale: .9
+    }
+
+    30% {
+        opacity: 0;
+        scale: 1
+    }
+
+    35%{
+        opacity: 1
+    }
 }
 
 @keyframes shape {
