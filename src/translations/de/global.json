@@ -6,7 +6,7 @@
         "home": "Wer bin Ich?",
         "projects": "Projekte",
         "info": "Technologien",
-        "contact":"Beauftrage mich"
+        "contact":"kontakt"
       },
       "charge":{
       "developer":"Frontend-Webentwickler"},
@@ -19,5 +19,10 @@
         "clinica": "ZAHNKLINIK. Projekt in HTML",
         "vanillaJavascript": "100% JavaScript-Projekt",
         "etriath": "etriath. SEITE MIT JS, BOOTSTRAP"
-    }
+    },
+    "contacto":{
+        "contact_me": "Kontaktiere mich_ Ich bin immer offen für neue Herausforderungen",
+        "look_for": "Sie können mich auch hier finden ",
+        "mail": "Zögern Sie nicht, mich zu kontaktieren"
+      }
 }

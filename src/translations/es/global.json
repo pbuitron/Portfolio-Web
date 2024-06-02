@@ -6,7 +6,7 @@
         "home": "¿Quién soy?",
         "projects": "Proyectos",
         "info": "Tecnologías",
-        "contact": "Contrátame"
+        "contact": "Contáctame"
     },
     "charge": {
         "developer": "Desarrollador Web - Frontend"
@@ -20,5 +20,11 @@
         "clinica": "CLINICA DENTAL. Proyecto en html",
         "vanillaJavascript": "proyecto 100% javascript ",
         "etriath": "etriath. PÁGINA CON JS, BOOTSTRAP"
-    }
+    },
+    "contacto":{
+        "contact_me": "Contáctame_ Siempre estoy abierto a nuevos desafíos",
+        "look_for": "También puedes encontrarme aquí ",
+        "mail": "No dudes en contactarme"
+      }
+    
 }

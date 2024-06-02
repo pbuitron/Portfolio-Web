@@ -6,7 +6,7 @@
         "home": "Who I´m?",
         "projects": "Projects",
         "info": "Technologies",
-        "contact": "Hire me"
+        "contact": "Contact"
     },
     "charge": {
         "developer": "Front-End Web Developer"
@@ -20,5 +20,11 @@
         "clinica": "DENTAL CLINIC. Project in HTML",
         "vanillaJavascript": "100% JavaScript project",
         "etriath": "etriath. PAGE WITH JS, BOOTSTRAP"
+    },
+    "contacto": {
+        "contact_me":"CONTACT ME_ I am always open to news challenge",
+         "look_for":"Also you can find me here ",
+         "mail":"Feel free to contact me"
     }
+        
 }
