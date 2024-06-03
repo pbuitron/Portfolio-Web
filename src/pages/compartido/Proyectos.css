@@ -17,7 +17,7 @@
   overflow-y: auto; /* Permitir desplazamiento vertical */
   width: 100%; /* Asegura que ocupe el ancho completo del contenedor */
   flex-grow: 1; /* Permitir que este contenedor crezca para llenar el espacio disponible */
-  padding-left: 0.5em;
+  
 }
 .proyecto::-webkit-scrollbar {
   width: 8px;
