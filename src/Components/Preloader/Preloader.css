@@ -23,6 +23,10 @@
   .preloader.fade-out {
     opacity: 0;
   }
+
+  .preloader.fade-in {
+    opacity: 0;
+  }
 .preloader-button{
 font-weight: 700;
 }
